@@ -3,3 +3,64 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #080A0C;
+    color: rgb(255, 255, 255);
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Main Section */
+
+
+.flex {
+    display: block;
+}
+
+main {
+    margin: auto;
+    padding: 20px;
+}
+
+/* .background-image {
+    width: 400px;
+    height: 400px;
+    background-color: #12161B;
+    border-radius: 100%;
+
+} */
+
+.hero {
+    gap: 20px;
+    align-items: center;
+}
+
+.hero img {
+    width: 550px;
+    height: 550px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.hero-content {
+    display: block
+}
+
+.hero-content h2 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.secondary-button {
+    background-color: #101419;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    font-weight: bold;
+}
