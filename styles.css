@@ -10,7 +10,7 @@
 
 header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 20px 20px;
     border-bottom: 1px solid black;
     position: fixed;
@@ -19,6 +19,8 @@ header {
 
 ul {
     display: flex;
-    padding: 0;
+    padding: 0px;
     list-style: none;
+    gap: 6px;
+    align-items: center;
 }
